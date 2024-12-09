@@ -1,25 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="index.css"/>
-    </head>
-    <body>
-        <div id="mainPictureAndText">
-            <div id="textInPicture">
-                <p id="textPicture">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div id="mainPictureAndText">
+        <div id="textInPicture">
+            <p id="textPicture">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        </div>
+    </div>
+    <div id="emailFrame">
+        <h1 id="aboutLaunch">Be the first to know when we launch</h1>
+        <div id="subscribtion">
+            <p>We’re still building. Subscribe for updates and 20% off when we launch. No spam, we promise!</p>
+        </div>
+        <div id="sendEmail">
+            <input type="email" id="mainEmailInput" placeholder="Enter your email" />
+            <button>Subscribe</button>
+            <p>we care about your data in our <u>privacy policy.</u></p>
+        </div>
+    </div>
+    <div id="formFrame">
+        <h2>Sumbit form</h2>
+        <div id="formInputs">
+            <label>Full name</label>
+            <input id="nameInput" type="text" placeholder="Please write your name" />
+            <label>Email</label>
+            <input id="emailInput" type="email" placeholder="Please write your email" />
+            <div id="optionInputs">
+                <div id="radioInputs">
+                    <label id="mainLabelRadio">Would you recommend GeeksforGeeks to a friends?</label>
+                    <div id="radioFirs">
+                        <input type="radio" id="firstOption">
+                        <label for="firstOption">Yes</label>
+                    </div>
+                    <div id="radioSecond">
+                        <input type="radio" id="secondOption">
+                        <label for="secondOption">Yes</label>
+                    </div>
+                    <div id="radioThird">
+                        <input type="radio" id="thirdOption">
+                        <label for="thirdOption">Yes</label>
+                    </div>
+                </div>
+                <div id="checkboxInputs">
+                    <label id="mainLabelCheckbox">LAnguage and frameworks known(Cheks all that apply)</label>
+                    <div id="boxOne">
+                        <input type="checkbox" id="C">
+                        <label for="C">C</label>
+                    </div>
+                    <div id="boxTwo">
+                        <input type="checkbox" id="C++">
+                        <label for="C++">C++</label>
+                    </div>
+                    <div id="bowThree">
+                        <input type="checkbox" id="Java">
+                        <label for="Java">Java</label>
+                    </div>
+                    <div id="boxFour">
+                        <input type="checkbox" id="Python">
+                        <label for="Python">Python</label>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="emailFrame">
-            <h2 id="aboutLaunch">Be the first to know when we launch</h2>
-            <div id="subscribtion">
-                <p>We’re still building. Subscribe for updates and 20% off when we launch. No spam, we promise!</p>
-            </div>
-            <div id="sendEmail">
-                <input type="email" id="emailInput" placeholder="Enter your email"/>
-                <button>Subscribe</button>
-                <p>we care about your data in our <u>privacy policy.</u></p>
-            </div>
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>
