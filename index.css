@@ -102,10 +102,14 @@ label {
 
 #mainLabelRadio {
     display: block;
+    color: #1B003D;
+    font-size: 14px;
 }
 
 #mainLabelCheckbox {
     display: block;
+    color: #1B003D;
+    font-size: 14px;
 }
 
 #radioInputs label {
@@ -131,10 +135,22 @@ label {
     background-color: #EBF8FE;
     width: 482px;
 }
-#emailInput{
+
+#emailInput {
     padding: 8px 16px;
     border-radius: 8px;
     border: 1px solid #380054;
     background-color: #EBF8FE;
     width: 482px;
+}
+
+#oneOpt,
+#twoOpt,
+#threeOpt,
+#idC,
+#idCplus,
+#idJava,
+#idPython {
+    color: #6D5F8B;
+    font-size: 14px;
 }
